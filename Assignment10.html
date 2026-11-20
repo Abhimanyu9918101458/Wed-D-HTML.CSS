@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible Page</title>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main">Skip to main content</a>
+
+  <nav aria-label="Primary navigation">
+    <a href="#">Home</a>
+    <a href="#">Help</a>
+  </nav>
+
+  <main id="main">
+    <h1>Accessible Page</h1>
+
+    <!-- Alt text -->
+    <img src="image.jpg" alt="Descriptive text about the image" width="300">
+
+    <!-- ARIA label -->
+    <button aria-label="Close">X</button>
+
+    <!-- Label input se linked -->
+    <form role="search">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+    </form>
+  </main>
+
+</body>
+</html>
